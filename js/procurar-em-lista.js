@@ -5,7 +5,7 @@ const lista = [alunos, medias];
 
 function exibeNomeNota(aluno) {
     if (lista[0].includes(aluno)) {
-        // Retorna o índice do aluno
+        //Retorna o índice do aluno
         const indice = lista[0].indexOf(aluno);
         const mediaAluno = lista[1][indice]; // Acessa a média do aluno
         console.log(`${aluno} tem a média ${mediaAluno}`);
